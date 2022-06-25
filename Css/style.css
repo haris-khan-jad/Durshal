@@ -1,0 +1,1644 @@
+body {
+  font-size: 16px;
+  font-family: "Open Sans" sans-serif;
+}
+/* Navber Section */
+
+.navbar-brand img {
+  max-width: 100%;
+  height: 65px;
+}
+.navbar-nav {
+  padding-top: 10px;
+}
+#navbarNav li {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#navbarNav li a.active {
+  color: #fecc00;
+  font-weight: bold;
+}
+#navbarNav li a {
+  text-transform: capitalize;
+  font-size: 17px;
+  color: #fff;
+  padding-left: 0px;
+  padding-right: 0px;
+  border-bottom: 5px solid transparent;
+}
+#navbarNav li a:hover {
+  text-transform: capitalize;
+  font-size: 17px;
+  padding-left: 0px;
+  padding-right: 0px;
+  border-bottom: 5px solid #fff;
+}
+.navbar-default .navbar-toggler-icon {
+  color: #fff;
+}
+.nav-item .btn {
+  font-size: 17px;
+  color: #fff !important;
+  background-color: #0082ff !important;
+  padding-left: 13px !important;
+  padding-right: 13px !important;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  border-radius: 0;
+}
+ul .dropdown-menu {
+  background-color: #333;
+}
+ul .dropdown-menu :hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* offcanvas */
+
+#offcanvasTop {
+  background-color: #333;
+  height: 74%;
+  width: 100%;
+  color: white;
+}
+#offcanvasTop button {
+  background-color: #fff;
+}
+.offcanvas {
+  margin-top: 18%;
+}
+.OFFCanvas-Section li a {
+  text-transform: capitalize;
+  font-size: 16px;
+  color: #fff;
+  padding-left: 0px;
+  padding-right: 0px;
+  border-bottom: 5px solid transparent;
+}
+.OFFCanvas-Section li a:hover {
+  text-transform: capitalize;
+  font-size: 16px;
+  color: #fff;
+  padding-left: 0px;
+  padding-right: 0px;
+  border-bottom: 5px solid #fff;
+}
+
+/* Background img */
+
+#frontheader {
+  background: url(../Img/Backgroound-img.png) no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#frontheader-two {
+  background: url(../Img/1.png) no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  background-position: bottom right !important;
+}
+
+#frontheader-three {
+  background: url(../Img/1\ Gil.png) no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  background-position: bottom right !important;
+}
+
+#frontheader-four {
+  background: url(../Img/1\ access.png) no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  background-position: bottom right !important;
+}
+
+#frontheader-two #navbarNav li a.active {
+  color: #fff;
+  font-weight: bold;
+}
+#frontheader-three #navbarNav li a.active {
+  color: #fff;
+  font-weight: bold;
+}
+#frontheader-four #navbarNav li a.active {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Nav-Section-one */
+
+.Heading-one {
+  text-align: center;
+  color: #fff;
+  font-weight: 350;
+  margin-top: 90px;
+  font-size: 38px;
+  line-height: 1.1;
+}
+.bg-blue-text-white {
+  background-color: #0082ff;
+  padding: 5px 8px 10px;
+  display: inline-block;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+/*  Nav-Section-two  */
+.img-adj {
+  margin-top: 45px;
+  text-align: center;
+}
+img {
+  height: auto;
+  max-width: 100%;
+}
+p {
+  margin: 0 0 10px;
+}
+
+/* Durshal-One */
+
+#Durshal-One {
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+#Durshal-One h1 {
+  font-weight: 300;
+}
+#Durshal-One p {
+  padding-top: 20px;
+  margin: 0 0 10px;
+  font-size: 19px;
+  font-weight: 300;
+}
+#Durshal-One .btn-yellow {
+  background-color: #fecc00;
+  color: #000;
+}
+#Durshal-One .btn-yellow:hover {
+  color: rgba(29, 28, 28, 0.849);
+}
+/* Durshal-Location */
+
+#Durshal-Location {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+#Durshal-Location h1 {
+  font-weight: 300;
+}
+#Durshal-Location p {
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Durshal-city */
+
+#Durshal-city {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#Durshal-city .pd-40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#Durshal-city img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: auto;
+}
+#Durshal-city .title {
+  font-size: 26px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#Durshal-city .title a {
+  font-weight: 600px;
+  color: #333;
+  text-decoration: none;
+}
+#Durshal-city .title a:hover {
+  color: rgba(227, 183, 12, 0.7);
+}
+#Durshal-city p {
+  font-weight: 300;
+  margin: 0 0 10px;
+  font-style: italic;
+  font-size: 19px;
+}
+
+/* Facilities-Durshal */
+
+#Facilities-Durshal {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+#Facilities-Durshal h1 {
+  font-weight: 300;
+}
+#Facilities-Durshal p {
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+}
+.set {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.Facilities-set .row {
+  padding-left: -15px;
+  padding-right: -15px;
+}
+.card img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+.card {
+  padding-top: 25px;
+  height: 440px;
+  box-shadow: 0px 1px 4px 1px rgb(0 0 0 / 10%);
+  border: none;
+}
+.card-title {
+  font-weight: bold;
+  margin: 20px auto;
+  /* color: #0082ff; */
+  color: #000;
+  font-size: 18px;
+}
+.card-text {
+  padding-top: 10px;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  font-size: 22px;
+  font-weight: 300;
+}
+.card:hover {
+  background-color: #0082ff;
+  color: #fff;
+}
+
+/* Durshal Branches */
+
+#Durshal-Branches {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+#Durshal-Branches h1 {
+  font-weight: 300;
+}
+#Durshal-Branches p {
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Durshal-brenches-one */
+
+#Durshal-brenches-one {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.bg-1 {
+  background-color: #a1142e;
+  height: 670px;
+  margin-bottom: 20px;
+}
+.bg-1 img {
+  padding: 40px;
+  max-width: 100%;
+  height: auto;
+}
+.header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.header h2 a {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+.bg-1 .body {
+  margin-top: 20px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+.bg-1 .body p {
+  color: #fff;
+  font-size: 19px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+/* Bg-2 */
+
+.bg-2 {
+  background-color: #f9c61d;
+  height: 670px;
+  margin-bottom: 20px;
+}
+.bg-2 img {
+  padding: 40px;
+  max-width: 100%;
+  height: auto;
+}
+.bg-2 .body {
+  margin-top: 20px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+.bg-2 .body p {
+  color: #fff;
+  font-size: 19px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+/* bg-3 */
+
+.bg-3 {
+  background-color: #0082ff;
+  height: 670px;
+  margin-bottom: 20px;
+}
+.bg-3 img {
+  padding: 40px;
+  max-width: 100%;
+  height: auto;
+}
+.bg-3 .body {
+  margin-top: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.bg-3 .body p {
+  color: #fff;
+  font-size: 19px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+/* Durshal-Mentors */
+
+#Durshal-Mentors {
+  background: url(../Img/mentors-bg.jpg) no-repeat;
+  background-size: cover;
+  min-height: 180vh;
+}
+.Durshal-Mentors-set {
+  font-weight: 600;
+  color: #fff;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  padding-top: 150px;
+  font-size: 25px;
+}
+
+/* Durshal-Mentors-one */
+
+#Durshal-Mentors-one .mgb-40 {
+  padding-bottom: 40px;
+}
+.mgb-40 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: auto;
+}
+.text-section h4 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.text-section h4 a {
+  background-color: #fff;
+  color: #000 !important;
+  padding: 5px 10px;
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 20px;
+  text-decoration: none;
+}
+.designation {
+  font-size: 19px;
+  font-weight: normal;
+  color: #fff;
+  margin-bottom: 5px;
+}
+.company {
+  font-weight: 300;
+  color: #fff;
+  font-style: italic;
+  font-size: 20px;
+}
+
+/* Happenings at Durshal */
+
+#Happenings-at-Durshal {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+#Happenings-at-Durshal h1 {
+  font-weight: 300;
+}
+#Happenings-at-Durshal p {
+  padding-top: 5px;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Happenings-at-Durshal-one */
+
+#Happenings-at-Durshal-one {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.Durshal-one {
+  box-shadow: 0px 1px 4px 1px rgb(0 0 0 / 10%);
+  padding: 40px 25px;
+}
+.Durshal-one img {
+  height: auto;
+  max-width: 100%;
+}
+.Durshal-one h2 {
+  font-weight: 300;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.Durshal-one .title a {
+  color: #0082ff;
+  font-weight: bold;
+  text-decoration: none;
+}
+.date {
+  font-size: 16px;
+  margin: 0 0 10px;
+}
+#Happenings-at-Durshal-one p {
+  font-size: 18px;
+  padding-top: 2px;
+  font-weight: 300;
+}
+#Happenings-at-Durshal-one p a {
+  text-decoration: none;
+  background: transparent;
+  color: #333;
+}
+#Happenings-at-Durshal-one p a:hover {
+  color: #0082ff;
+  text-decoration: underline;
+}
+
+/* Happenings-at-Durshal-two */
+
+#Happenings-at-Durshal-two {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#Happenings-at-Durshal-two p {
+  font-size: 18px;
+  padding-top: 2px;
+  font-weight: 300;
+}
+#Happenings-at-Durshal-two p a {
+  text-decoration: none;
+  background: transparent;
+  color: #333;
+}
+#Happenings-at-Durshal-two p a:hover {
+  color: #0082ff;
+  text-decoration: underline;
+}
+/* Happenings-at-Durshal-three */
+
+#Happenings-at-Durshal-three {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#Happenings-at-Durshal-three p {
+  font-size: 18px;
+  padding-top: 2px;
+  font-weight: 300;
+}
+#Happenings-at-Durshal-three p a {
+  text-decoration: none;
+  background: transparent;
+  color: #333;
+}
+#Happenings-at-Durshal-three p a:hover {
+  color: #0082ff;
+  text-decoration: underline;
+}
+
+/* Happenings-at-Durshal-four */
+
+#Happenings-at-Durshal-four {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#Happenings-at-Durshal-four p {
+  font-size: 18px;
+  padding-top: 2px;
+  font-weight: 300;
+}
+
+/* Happenings-at-Durshal-five */
+
+#Happenings-at-Durshal-five {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#Happenings-at-Durshal-five p {
+  font-size: 18px;
+  padding-top: 2px;
+  font-weight: 300;
+}
+
+/* Happenings-at-Durshal-six */
+
+#Happenings-at-Durshal-six {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#Happenings-at-Durshal-six p {
+  font-size: 18px;
+  padding-top: 2px;
+  font-weight: 300;
+}
+#Happenings-at-Durshal-six p a {
+  text-decoration: none;
+  background: transparent;
+  color: #333;
+}
+#Happenings-at-Durshal-six p a:hover {
+  color: #0082ff;
+  text-decoration: underline;
+}
+
+/* Happenings-at-Durshal-seven */
+
+#Happenings-at-Durshal-seven {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#Happenings-at-Durshal-seven p {
+  font-size: 18px;
+  padding-top: 2px;
+  font-weight: 300;
+}
+
+/* Happenings-at-Durshal-eight */
+
+#Happenings-at-Durshal-eight {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#Happenings-at-Durshal-eight p {
+  font-size: 18px;
+  padding-top: 2px;
+  font-weight: 300;
+}
+
+/* Happenings-at-Durshal-nine */
+
+#Happenings-at-Durshal-nine {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#Happenings-at-Durshal-nine p {
+  font-size: 18px;
+  padding-top: 2px;
+  font-weight: 300;
+}
+
+/* Happenings-at-Durshal-ten */
+
+#Happenings-at-Durshal-ten {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#Happenings-at-Durshal-ten p {
+  font-size: 18px;
+  padding-top: 2px;
+  font-weight: 300;
+}
+/* Happenings-at-Durshal-eleven */
+
+#Happenings-at-Durshal-eleven {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#Happenings-at-Durshal-eleven p {
+  font-size: 18px;
+  padding-top: 2px;
+  font-weight: 300;
+}
+
+/* Happenings-at-Durshal-twelve */
+
+#Happenings-at-Durshal-twelve {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#Happenings-at-Durshal-twelve p {
+  font-size: 18px;
+  padding-top: 2px;
+  font-weight: 300;
+}
+
+/* Happenings-at-Durshal-thirteen */
+
+#Happenings-at-Durshal-thirteen {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#Happenings-at-Durshal-thirteen p {
+  font-size: 18px;
+  padding-top: 2px;
+  font-weight: 300;
+}
+
+/* Happenings-at-Durshal-fouteen */
+
+#Happenings-at-Durshal-fouteen {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#Happenings-at-Durshal-fouteen p {
+  font-size: 18px;
+  padding-top: 2px;
+  font-weight: 300;
+}
+
+/* Happenings-at-Durshal-fifteen */
+
+#Happenings-at-Durshal-fifteen {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#Happenings-at-Durshal-fifteen p {
+  font-size: 18px;
+  padding-top: 2px;
+  font-weight: 300;
+}
+
+/* Happenings-at-Durshal-sexteen */
+
+#Happenings-at-Durshal-sexteen {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#Happenings-at-Durshal-sexteen p {
+  font-size: 18px;
+  padding-top: 2px;
+  font-weight: 300;
+}
+
+/* Happenings-at-Durshal-seventeen */
+
+#Happenings-at-Durshal-seventeen {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#Happenings-at-Durshal-seventeen p {
+  font-size: 18px;
+  padding-top: 2px;
+  font-weight: 300;
+}
+
+/* Happenings-at-Durshal-eighteen */
+
+#Happenings-at-Durshal-eighteen {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#Happenings-at-Durshal-eighteen p {
+  font-size: 18px;
+  padding-top: 2px;
+  font-weight: 300;
+}
+
+/* Happenings-at-Durshal-nineteen */
+
+#Happenings-at-Durshal-nineteen {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#Happenings-at-Durshal-nineteen p {
+  font-size: 18px;
+  padding-top: 2px;
+  font-weight: 300;
+}
+
+/* Happenings-at-Durshal-twenty */
+
+#Happenings-at-Durshal-twenty {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#Happenings-at-Durshal-twenty p {
+  font-size: 18px;
+  padding-top: 2px;
+  font-weight: 300;
+}
+
+/* Happenings-at-Durshal-twenty-one */
+
+#Happenings-at-Durshal-twenty-one {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#Happenings-at-Durshal-twenty-one p {
+  font-size: 18px;
+  padding-top: 2px;
+  font-weight: 300;
+}
+
+/* Happenings-at-Durshal-twenty-two */
+
+#Happenings-at-Durshal-twenty-two {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#Happenings-at-Durshal-twenty-two p {
+  font-size: 18px;
+  padding-top: 2px;
+  font-weight: 300;
+}
+#Happenings-at-Durshal-twenty-two p a {
+  text-decoration: none;
+  background: transparent;
+  color: #333;
+}
+#Happenings-at-Durshal-twenty-two p a:hover {
+  color: #0082ff;
+  text-decoration: underline;
+}
+
+/* Happenings-at-Durshal-twenty-three */
+
+#Happenings-at-Durshal-twenty-three {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#Happenings-at-Durshal-twenty-three p {
+  font-size: 18px;
+  padding-top: 2px;
+  font-weight: 300;
+}
+
+/* Happenings-at-Durshal-twenty-four */
+
+#Happenings-at-Durshal-twenty-four {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#Happenings-at-Durshal-twenty-four p {
+  font-size: 18px;
+  padding-top: 2px;
+  font-weight: 300;
+}
+
+/* Happenings-at-Durshal-twenty-five */
+
+#Happenings-at-Durshal-twenty-five {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#Happenings-at-Durshal-twenty-five p {
+  font-size: 18px;
+  padding-top: 2px;
+  font-weight: 300;
+}
+
+/* Happenings-at-Durshal-twenty-sex */
+
+#Happenings-at-Durshal-twenty-sex {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#Happenings-at-Durshal-twenty-sex p {
+  font-size: 18px;
+  padding-top: 2px;
+  font-weight: 300;
+}
+
+/* Happenings-at-Durshal-twenty-seven */
+
+#Happenings-at-Durshal-twenty-seven {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#Happenings-at-Durshal-twenty-seven p {
+  font-size: 18px;
+  padding-top: 2px;
+  font-weight: 300;
+}
+
+/* Happenings-at-Durshal-twenty-eight */
+
+#Happenings-at-Durshal-twenty-eight {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#Happenings-at-Durshal-twenty-eight p {
+  font-size: 18px;
+  padding-top: 2px;
+  font-weight: 300;
+}
+
+/* Footer */
+
+#Footer {
+  background: #333;
+  padding: 60px 0px;
+  margin-top: 100px;
+}
+.footer-socail-icon {
+  margin-bottom: 20px;
+}
+.footer-socail-icon a {
+  color: #333;
+  display: inline-flex;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  line-height: 50px;
+  background: #fff;
+  color: #333;
+  text-decoration: none;
+  margin: 10px;
+}
+.social-icon i {
+  color: black;
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 3px;
+  font-size: 16px;
+}
+.footer-site-links a {
+  font-size: 18px;
+  font-weight: 350;
+  margin: 0px 20px;
+  text-decoration: none;
+  color: #fff;
+}
+.footer-site-links a:hover {
+  color: #fff;
+}
+
+/* Mentors */
+
+#frontheader-one {
+  background: url(../Img/Backgroound-img.png) no-repeat;
+  min-height: 500px;
+  background-position: bottom right !important;
+  background-size: cover;
+}
+.Mentors-section img {
+  height: 160px;
+  margin-top: 55px;
+}
+
+/* Meet-our-Mentors */
+
+#Meet-our-Mentors {
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+#Meet-our-Mentors h1 {
+  font-weight: 300;
+}
+#Meet-our-Mentors p {
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Durshal-Mentors-two */
+
+#Durshal-Mentors-two .mgb-40 {
+  padding-bottom: 40px;
+}
+.mgb-40 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: auto;
+}
+.text-section-one h4 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.text-section-one h4 a {
+  background-color: #fff;
+  color: #0082ff !important;
+  padding: 5px 10px;
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.designation-one {
+  font-size: 20px;
+  font-weight: normal;
+  color: #222;
+  margin-bottom: 5px;
+}
+.company-one {
+  font-weight: 300;
+  color: #222;
+  font-style: italic;
+  font-size: 20px;
+}
+
+/* Durshal-Partners */
+
+#Durshal-Partners {
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+#Durshal-Partners h1 {
+  font-weight: 300;
+}
+#Durshal-Partners p {
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Durshal-CILs */
+
+#Durshal-CILs {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+#Durshal-CILs h1 {
+  font-weight: 300;
+}
+#Durshal-CILs p {
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Durshal-GILs */
+
+#Durshal-GILs {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+#Durshal-GILs h1 {
+  font-weight: 300;
+}
+#Durshal-GILs p {
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Durshal-city-one */
+
+#Durshal-city-one {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#Durshal-city-one .pd-40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#Durshal-city-one img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: auto;
+}
+#Durshal-city-one .title {
+  font-size: 26px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#Durshal-city-one .title a {
+  font-weight: 600px;
+  color: #333;
+  text-decoration: none;
+}
+#Durshal-city-one .title a:hover {
+  color: #0082ff;
+}
+#Durshal-city-one p {
+  font-weight: 300;
+  margin: 0 0 10px;
+  font-style: italic;
+  font-size: 19px;
+}
+
+/* Durshal-city-two */
+
+#Durshal-city-two {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#Durshal-city-two .pd-40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#Durshal-city-two img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: auto;
+}
+#Durshal-city-two .title {
+  font-size: 26px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#Durshal-city-two .title a {
+  font-weight: 600px;
+  color: #333;
+  text-decoration: none;
+}
+#Durshal-city-two .title a:hover {
+  color: #0082ff;
+}
+#Durshal-city-two p {
+  font-weight: 300;
+  margin: 0 0 10px;
+  font-style: italic;
+  font-size: 19px;
+}
+
+/* Applications-at-Durshal */
+
+#Applications-at-Durshal {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+#Applications-at-Durshal h1 {
+  font-weight: 300;
+}
+#Applications-at-Durshal hr {
+  width: 100%;
+  margin: 20px auto;
+}
+
+/* contact-bg */
+
+#contact-bg {
+  background-image: url(../Img/contact-map.png);
+  background-attachment: fixed;
+  background-position: top center;
+}
+
+/* Contact Us */
+
+#Contact-us {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+#Contact-us h1 {
+  font-weight: 300;
+}
+#Contact-us p {
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Durshal-Mardan */
+
+#Durshal-Mardan {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+#Durshal-Mardan h2 {
+  font-weight: 300;
+  font-size: 30px;
+}
+
+#Durshal-Mardan .info-icon {
+  font-size: 26px;
+  color: #0082ff;
+}
+#Durshal-Mardan .info-title {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #23272c;
+  font-weight: 600;
+}
+#Durshal-Mardan .info-text {
+  margin: 0 0 10px;
+  font-size: 19px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+#Durshal-Mardan .info-text a {
+  text-decoration: none;
+  color: #333;
+}
+#Durshal-Mardan .info-text a:hover {
+  text-decoration: underline;
+}
+
+#Durshal-Mardan .mt20 {
+  margin-top: 20px;
+}
+.b-info {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 86%;
+  top: 8px;
+  right: 0;
+  border-right: 1px dotted #999999;
+}
+
+/* Durshal-Peshawar */
+
+#Durshal-Peshawar {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+#Durshal-Peshawar h2 {
+  font-weight: 300;
+  font-size: 30px;
+}
+
+#Durshal-Peshawar .info-icon {
+  font-size: 26px;
+  color: #0082ff;
+}
+#Durshal-Peshawar .info-title {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #23272c;
+  font-weight: 600;
+}
+#Durshal-Peshawar .info-text {
+  margin: 0 0 10px;
+  font-size: 19px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+#Durshal-Peshawar .info-text a {
+  text-decoration: none;
+  color: #333;
+}
+#Durshal-Peshawar .info-text a:hover {
+  text-decoration: underline;
+}
+
+#Durshal-Peshawar .mt20 {
+  margin-top: 20px;
+}
+
+/* Durshal-Swat */
+
+#Durshal-Swat {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+#Durshal-Swat h2 {
+  font-weight: 300;
+  font-size: 30px;
+}
+
+#Durshal-Swat .info-icon {
+  font-size: 26px;
+  color: #0082ff;
+}
+#Durshal-Swat .info-title {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #23272c;
+  font-weight: 600;
+}
+#Durshal-Swat .info-text {
+  margin: 0 0 10px;
+  font-size: 19px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+#Durshal-Swat .info-text a {
+  text-decoration: none;
+  color: #333;
+}
+#Durshal-Swat .info-text a:hover {
+  text-decoration: underline;
+}
+
+#Durshal-Swat .mt20 {
+  margin-top: 20px;
+}
+
+/* Durshal-Swabi */
+
+#Durshal-Swabi {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+#Durshal-Swabi h2 {
+  font-weight: 300;
+  font-size: 30px;
+}
+
+#Durshal-Swabi .info-icon {
+  font-size: 26px;
+  color: #0082ff;
+}
+#Durshal-Swabi .info-title {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #23272c;
+  font-weight: 600;
+}
+#Durshal-Swabi .info-text {
+  margin: 0 0 10px;
+  font-size: 19px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+#Durshal-Swabi .info-text a {
+  text-decoration: none;
+  color: #333;
+}
+#Durshal-Swabi .info-text a:hover {
+  text-decoration: underline;
+}
+
+#Durshal-Swabi .mt20 {
+  margin-top: 20px;
+}
+
+/* IM-Durshal */
+
+#IM-Durshal {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+#IM-Durshal h2 {
+  font-weight: 300;
+  font-size: 30px;
+}
+
+#IM-Durshal .info-icon {
+  font-size: 26px;
+  color: #0082ff;
+}
+#IM-Durshal .info-title {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #23272c;
+  font-weight: 600;
+}
+#IM-Durshal .info-text {
+  margin: 0 0 10px;
+  font-size: 19px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+#IM-Durshal .info-text a {
+  text-decoration: none;
+  color: #333;
+}
+#IM-Durshal .info-text a:hover {
+  text-decoration: underline;
+}
+
+#IM-Durshal .mt20 {
+  margin-top: 20px;
+}
+
+/* Durshal-Abbottabad */
+
+#Durshal-Abbottabad {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+#Durshal-Abbottabad h2 {
+  font-weight: 300;
+  font-size: 30px;
+}
+
+#Durshal-Abbottabad .info-icon {
+  font-size: 26px;
+  color: #0082ff;
+}
+#Durshal-Abbottabad .info-title {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #23272c;
+  font-weight: 600;
+}
+#Durshal-Abbottabad .info-text {
+  margin: 0 0 10px;
+  font-size: 19px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+#Durshal-Abbottabad .info-text a {
+  text-decoration: none;
+  color: #333;
+}
+#Durshal-Abbottabad .info-text a:hover {
+  text-decoration: underline;
+}
+
+#Durshal-Abbottabad .mt20 {
+  margin-top: 20px;
+}
+
+/* Durshal-Bannu */
+
+#Durshal-Bannu {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+#Durshal-Bannu h2 {
+  font-weight: 300;
+  font-size: 30px;
+}
+
+#Durshal-Bannu .info-icon {
+  font-size: 26px;
+  color: #0082ff;
+}
+#Durshal-Bannu .info-title {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #23272c;
+  font-weight: 600;
+}
+#Durshal-Bannu .info-text {
+  margin: 0 0 10px;
+  font-size: 19px;
+  margin-bottom: 30px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+#Durshal-Bannu .info-text a {
+  text-decoration: none;
+  color: #333;
+}
+#Durshal-Bannu .info-text a:hover {
+  text-decoration: underline;
+}
+
+#Durshal-Bannu .mt20 {
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+/* About Durshal */
+
+#About-Durshal {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+#About-Durshal h1 {
+  font-weight: 300;
+}
+#About-Durshal p {
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* About Durshal Paragraph */
+
+#About-Durshal-Paragraph {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+#About-Durshal-Paragraph p {
+  font-size: 19px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Why Durshal */
+
+#Why-Durshal {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+#Why-Durshal h1 {
+  font-weight: 300;
+}
+#Why-Durshal p {
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Why Durshal Paragraph */
+
+#Why-Durshal-Paragraph {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+#Why-Durshal-Paragraph p {
+  font-size: 19px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Question-section */
+
+#Question-section {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+#Question-section input:hover {
+  text-decoration: underline;
+}
+#Question-section label p {
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* #Question-section-one */
+
+#Question-section-one {
+  margin-top: -15px;
+}
+
+#Question-section-one input:hover {
+  text-decoration: underline;
+}
+
+/* #Question-section-two */
+
+#Question-section-two {
+  margin-top: 5px;
+}
+
+#Question-section-two input:hover {
+  text-decoration: underline;
+}
+
+/* #Question-section-three */
+
+#Question-section-three {
+  margin-top: 5px;
+}
+
+#Question-section-three input:hover {
+  text-decoration: underline;
+}
+
+/* #Question-section-four */
+
+#Question-section-four {
+  margin-top: 5px;
+}
+
+#Question-section-four input:hover {
+  text-decoration: underline;
+}
+
+/* #Question-section-five */
+
+#Question-section-five {
+  margin-top: 5px;
+}
+
+#Question-section-five input:hover {
+  text-decoration: underline;
+}
+
+/* #Question-section-seven */
+
+#Question-section-seven {
+  margin-top: 5px;
+}
+
+#Question-section-seven input:hover {
+  text-decoration: underline;
+}
+
+/* #Question-section-eight */
+
+#Question-section-eight {
+  margin-top: 5px;
+}
+
+#Question-section-eight input:hover {
+  text-decoration: underline;
+}
+
+/* #Question-section-nine */
+
+#Question-section-nine {
+  margin-top: 5px;
+}
+
+#Question-section-nine input:hover {
+  text-decoration: underline;
+}
+
+/* #Question-section-ten */
+
+#Question-section-ten {
+  margin-top: 5px;
+}
+
+#Question-section-ten input:hover {
+  text-decoration: underline;
+}
+/* #Question-section-eleven */
+
+#Question-section-eleven {
+  margin-top: 5px;
+}
+
+#Question-section-eleven input:hover {
+  text-decoration: underline;
+}
+
+/* #Question-section-twelve */
+
+#Question-section-twelve {
+  margin-top: 5px;
+}
+
+#Question-section-twelve input:hover {
+  text-decoration: underline;
+}
+
+/* #Question-section-thirteen */
+
+#Question-section-thirteen {
+  margin-top: 5px;
+}
+
+#Question-section-thirteen input:hover {
+  text-decoration: underline;
+}
+
+/* #Question-section-fourteen */
+
+#Question-section-fourteen {
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+#Question-section-fourteen input:hover {
+  text-decoration: underline;
+}
+
+/* Durshal-CIL-Logo */
+
+#Durshal-CIL-Logo {
+  margin-top: 100px;
+}
+#Durshal-CIL-Logo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Durshal-GIL-Logo */
+
+#Durshal-GIL-Logo {
+  margin-top: 100px;
+}
+#Durshal-GIL-Logo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Durshal-Access-Logo */
+
+#Durshal-Access-Logo {
+  margin-top: 100px;
+}
+#Durshal-Access-Logo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
